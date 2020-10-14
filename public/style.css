@@ -1,0 +1,43 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #3d405b;
+	background-color: #81b29a;
+	text-align: center;
+}
+
+
+input {
+  display: block;
+  position: relative;
+  margin: .5em auto;
+  
+}
+
+input#button {
+  width: 20em;
+  background-color: #f4f1de;
+}
+
+input#file-input{
+  background-color: #f4f1de;
+  height: 3.5vh;
+}
+
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #f2cc8f;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
+
+a{
+  color: inherit;
+}
+
+/****** Logo Div Styling ******/
