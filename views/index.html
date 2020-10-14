@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>File Metadata</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <h1>
+        FILE METADATA Microservice
+     </h1>
+     
+      <h3>
+         Choose a file, and then upload it to know its file name,
+        file size, and file type. This project was made in Node, Express,
+        and Mongoose.
+     </h3>
+     
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse" id="form-gridfs">
+            <input id="file-input" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+     <br><br>
+     <p>
+       This project is a project from FreeCodeCamp.<a href="https://github.com/Darealtube/file-metadata-mongoose">This is the link
+       to this project's repository.</a>
+     </p>
+     <br><br>
+     <h4>
+       Made with love by Darryl <3
+     </h4>
+   </body>
+
+
+</html>
